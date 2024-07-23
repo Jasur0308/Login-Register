@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 11</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand"><h3>MyWebsite</h3></div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="navbar-actions">
+            <a href="./pages/login.html" class="nav-link">Login</a>
+            <a href="./pages/register.html" class="nav-link btn-signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <div class="products">
+        <h1 class="main__title">Products</h1>
+        <div id="result">
+            <div id="product">
+                <h3 id="title"></h3>
+                <strong id="price"></strong>
+                <p id="description"></p>
+                <img id="image" src="" alt="">
+                <p id="category"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>

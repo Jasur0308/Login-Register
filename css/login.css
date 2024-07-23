@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: url('../images/register.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.title {
+    color: white;
+}
+
+#loginForm {
+    max-width: 400px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#loginForm input {
+    padding: 15px 10px;
+    border: 1ps solid gray;
+    border-radius: 10px;
+    outline: none;
+}
+
+#loginForm button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
